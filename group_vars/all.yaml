@@ -1,11 +1,11 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-{{ env }}.durgagopalakrishna.online
-REDIS_HOST: redis-{{ env }}.durgagopalakrishna.online
-MYSQL_HOST: mysql-{{ env }}.durgagopalakrishna.online
-RABBITMQ_HOST: rabbitmq-{{ env }}.durgagopalakrishna.online
-CATALOGUE_HOST: catalogue-{{ env }}.durgagopalakrishna.online
-USER_HOST: user-{{ env }}.durgagopalakrishna.online
-CART_HOST: cart-{{ env }}.durgagopalakrishna.online
-SHIPPING_HOST: shipping-{{ env }}.durgagopalakrishna.online
-PAYMENT_HOST: payment-{{ env }}.durgagopalakrishna.online
+MONGODB_HOST: mongodb-"{{ env }}".durgagopalakrishna.online
+REDIS_HOST: redis-"{{ env }}".durgagopalakrishna.online
+MYSQL_HOST: mysql-"{{ env }}".durgagopalakrishna.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".durgagopalakrishna.online
+CATALOGUE_HOST: catalogue-"{{ env }}".durgagopalakrishna.online
+USER_HOST: user-"{{ env }}".durgagopalakrishna.online
+CART_HOST: cart-"{{ env }}".durgagopalakrishna.online
+SHIPPING_HOST: shipping-"{{ env }}".durgagopalakrishna.online
+PAYMENT_HOST: payment-"{{ env }}".durgagopalakrishna.online
