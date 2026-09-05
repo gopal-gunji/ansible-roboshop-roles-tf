@@ -9,3 +9,4 @@ USER_HOST: user-"{{ env }}".durgagopalakrishna.online
 CART_HOST: cart-"{{ env }}".durgagopalakrishna.online
 SHIPPING_HOST: shipping-"{{ env }}".durgagopalakrishna.online
 PAYMENT_HOST: payment-"{{ env }}".durgagopalakrishna.online
+app_version: v3
